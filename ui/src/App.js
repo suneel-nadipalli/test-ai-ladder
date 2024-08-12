@@ -11,7 +11,7 @@ function App() {
 
   const handleSearch = async () => {
     try {
-      const response = await axios.post("http://18.219.46.75:8000/name", {
+      const response = await axios.post("http://52.14.53.10:8000/name", {
         name: name,
       });
       setResult(`Response: ${response.data.resp}`);
