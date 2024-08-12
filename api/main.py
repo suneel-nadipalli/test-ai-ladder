@@ -9,8 +9,8 @@ class Name(BaseModel):
 app = FastAPI()
 
 origins = [
-    "http://52.14.53.10",
-    "http://52.14.53.10:3000"
+    "http://test.ailadder.com",
+    "http://test.ailadder.com:3000"
 ]
 
 app.add_middleware(
